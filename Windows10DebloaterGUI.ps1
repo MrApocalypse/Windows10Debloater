@@ -177,14 +177,14 @@ $RemoveBlacklist.Add_Click( {
                 "*Royal Revolt*"
                  
                 #Optional: Typically not removed but you can if you need to for some reason
-                #"*Microsoft.Advertising.Xaml_10.1712.5.0_x64__8wekyb3d8bbwe*"
-                #"*Microsoft.Advertising.Xaml_10.1712.5.0_x86__8wekyb3d8bbwe*"
-                #"*Microsoft.BingWeather*"
-                #"*Microsoft.MSPaint*"
-                #"*Microsoft.MicrosoftStickyNotes*"
+                "*Microsoft.Advertising.Xaml_10.1712.5.0_x64__8wekyb3d8bbwe*"
+                "*Microsoft.Advertising.Xaml_10.1712.5.0_x86__8wekyb3d8bbwe*"
+                "*Microsoft.BingWeather*"
+                "*Microsoft.MSPaint*"
+                "*Microsoft.MicrosoftStickyNotes*"
                 #"*Microsoft.Windows.Photos*"
                 #"*Microsoft.WindowsCalculator*"
-                #"*Microsoft.WindowsStore*"
+                "*Microsoft.WindowsStore*"
             )
             foreach ($Bloat in $Bloatware) {
                 Get-AppxPackage -Name $Bloat| Remove-AppxPackage -ErrorAction SilentlyContinue
@@ -295,14 +295,14 @@ $RemoveAllBloatware.Add_Click( {
                 "*Royal Revolt*"
              
                 #Optional: Typically not removed but you can if you need to for some reason
-                #"*Microsoft.Advertising.Xaml_10.1712.5.0_x64__8wekyb3d8bbwe*"
-                #"*Microsoft.Advertising.Xaml_10.1712.5.0_x86__8wekyb3d8bbwe*"
-                #"*Microsoft.BingWeather*"
-                #"*Microsoft.MSPaint*"
-                #"*Microsoft.MicrosoftStickyNotes*"
+                "*Microsoft.Advertising.Xaml_10.1712.5.0_x64__8wekyb3d8bbwe*"
+                "*Microsoft.Advertising.Xaml_10.1712.5.0_x86__8wekyb3d8bbwe*"
+                "*Microsoft.BingWeather*"
+                "*Microsoft.MSPaint*"
+                "*Microsoft.MicrosoftStickyNotes*"
                 #"*Microsoft.Windows.Photos*"
                 #"*Microsoft.WindowsCalculator*"
-                #"*Microsoft.WindowsStore*"
+                "*Microsoft.WindowsStore*"
             )
             foreach ($Bloat in $Bloatware) {
                 Get-AppxPackage -Name $Bloat| Remove-AppxPackage -ErrorAction SilentlyContinue
